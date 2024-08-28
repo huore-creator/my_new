@@ -1,0 +1,25 @@
+.calculatorCt {
+  margin: 100px auto;
+  width: 300px;
+  height: 300px;
+  border: 1px solid transparent;
+  background-color: skyblue;
+  border-radius: 5px;
+}
+
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.ac, .operator, .numBtn,.result {
+  flex-basis: calc(25% - 20px);
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: aquamarine;
+  cursor: pointer;
+}
+

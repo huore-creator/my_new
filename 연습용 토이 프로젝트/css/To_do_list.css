@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+  box-sizing: border-box;
+  font-family: "Nanum Pen Script", cursive;
+}
+
+
+header {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.textWrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  margin: auto;
+}
+
+#inputText {
+  width: 300px;
+  height: 45px;
+  font-size: larger;
+  margin-right: 10px;
+}
+
+#inputButton {
+  width: 50px;
+  height: 45px;
+  background-color: aqua;
+}
+
+.mainList {
+  background-color: whitesmoke;
+  box-sizing: border-box;
+  border: 10px solid whitesmoke;
+  border-radius: 15%;
+  width: 400px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+main ul li {
+  background-color: whitesmoke;
+  margin-top: 10%;
+  list-style: none;
+}
